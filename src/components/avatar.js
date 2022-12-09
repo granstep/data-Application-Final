@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { dataStore, ReName, GenderSwap } from "../system/dataStore";
 
 export default function Avatar(prop) {
+  //name useState for dynamic updating
   const [nameVal, setNameVal] = useState(prop.info.Name);
 
+  //generate the display with the prop data
   var display = (
     <div>
       <div className="p-line-1">
@@ -80,11 +82,13 @@ export default function Avatar(prop) {
     </div>
   );
 
+  //function to change the character name
   function finalizeName() {
     let newName = new ReName(nameVal);
     dataStore.avatarRename(newName);
   }
 
+  //function to change to character gender
   function genderSwap() {
     if (prop.info.Gender === "Male") {
       let change = new GenderSwap("Female", "robinF");
@@ -94,5 +98,7 @@ export default function Avatar(prop) {
       dataStore.avatarGender(change);
     }
   }
+
+  //export the display to be used in view
   return display;
 }
