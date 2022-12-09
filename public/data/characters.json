@@ -1,0 +1,872 @@
+[
+  {
+    "Name": "Chrom",
+    "Img": "chrom",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Blue",
+    "Class": "Lord",
+    "Start": {
+      "Lv": 1,
+      "HP": 20,
+      "Str": 7,
+      "Mag": 1,
+      "Skl": 8,
+      "Spd": 8,
+      "Lck": 5,
+      "Def": 7,
+      "Res": 1
+    },
+    "Growths": {
+      "HP": 85,
+      "Str": 60,
+      "Mag": 10,
+      "Skl": 60,
+      "Spd": 60,
+      "Lck": 70,
+      "Def": 45,
+      "Res": 25
+    }
+  },
+  {
+    "Name": "Robin",
+    "Img": "robinM",
+    "Gender": "Male",
+    "Avatar": true,
+    "Hair": "White",
+    "Class": "Tactician",
+    "Start": {
+      "Lv": 1,
+      "HP": 19,
+      "Str": 6,
+      "Mag": 5,
+      "Skl": 5,
+      "Spd": 6,
+      "Lck": 4,
+      "Def": 6,
+      "Res": 4
+    },
+    "Growths": {
+      "HP": 80,
+      "Str": 55,
+      "Mag": 50,
+      "Skl": 50,
+      "Spd": 50,
+      "Lck": 55,
+      "Def": 40,
+      "Res": 30
+    }
+  },
+  {
+    "Name": "Lissa",
+    "Img": "lissa",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Yellow",
+    "Class": "Cleric",
+    "Start": {
+      "Lv": 1,
+      "HP": 17,
+      "Str": 1,
+      "Mag": 5,
+      "Skl": 4,
+      "Spd": 4,
+      "Lck": 8,
+      "Def": 3,
+      "Res": 4
+    },
+    "Growths": {
+      "HP": 70,
+      "Str": 30,
+      "Mag": 50,
+      "Skl": 45,
+      "Spd": 50,
+      "Lck": 65,
+      "Def": 20,
+      "Res": 50
+    }
+  },
+  {
+    "Name": "Frederick",
+    "Img": "frederick",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Brown",
+    "Class": "Great Knight",
+    "Start": {
+      "Lv": 1,
+      "HP": 28,
+      "Str": 13,
+      "Mag": 2,
+      "Skl": 12,
+      "Spd": 10,
+      "Lck": 6,
+      "Def": 14,
+      "Res": 3
+    },
+    "Growths": {
+      "HP": 110,
+      "Str": 65,
+      "Mag": 10,
+      "Skl": 55,
+      "Spd": 50,
+      "Lck": 40,
+      "Def": 55,
+      "Res": 25
+    }
+  },
+  {
+    "Name": "Sully",
+    "Img": "sully",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Red",
+    "Class": "Cavalier",
+    "Start": {
+      "Lv": 2,
+      "HP": 20,
+      "Str": 7,
+      "Mag": 1,
+      "Skl": 8,
+      "Spd": 8,
+      "Lck": 6,
+      "Def": 7,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 85,
+      "Str": 55,
+      "Mag": 20,
+      "Skl": 60,
+      "Spd": 60,
+      "Lck": 60,
+      "Def": 45,
+      "Res": 25
+    }
+  },
+  {
+    "Name": "Virion",
+    "Img": "virion",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Teal",
+    "Class": "Archer",
+    "Start": {
+      "Lv": 2,
+      "HP": 19,
+      "Str": 6,
+      "Mag": 0,
+      "Skl": 9,
+      "Spd": 5,
+      "Lck": 7,
+      "Def": 6,
+      "Res": 1
+    },
+    "Growths": {
+      "HP": 80,
+      "Str": 55,
+      "Mag": 30,
+      "Skl": 70,
+      "Spd": 60,
+      "Lck": 40,
+      "Def": 35,
+      "Res": 30
+    }
+  },
+  {
+    "Name": "Stahl",
+    "Img": "stahl",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Green",
+    "Class": "Cavalier",
+    "Start": {
+      "Lv": 2,
+      "HP": 22,
+      "Str": 8,
+      "Mag": 0,
+      "Skl": 7,
+      "Spd": 6,
+      "Lck": 5,
+      "Def": 8,
+      "Res": 1
+    },
+    "Growths": {
+      "HP": 95,
+      "Str": 65,
+      "Mag": 10,
+      "Skl": 55,
+      "Spd": 50,
+      "Lck": 50,
+      "Def": 60,
+      "Res": 15
+    }
+  },
+  {
+    "Name": "Vaike",
+    "Img": "vaike",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Yellow",
+    "Class": "Fighter",
+    "Start": {
+      "Lv": 3,
+      "HP": 24,
+      "Str": 9,
+      "Mag": 0,
+      "Skl": 8,
+      "Spd": 6,
+      "Lck": 4,
+      "Def": 5,
+      "Res": 0
+    },
+    "Growths": {
+      "HP": 105,
+      "Str": 75,
+      "Mag": 10,
+      "Skl": 65,
+      "Spd": 50,
+      "Lck": 45,
+      "Def": 50,
+      "Res": 10
+    }
+  },
+  {
+    "Name": "Miriel",
+    "Img": "miriel",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Red",
+    "Class": "Mage",
+    "Start": {
+      "Lv": 1,
+      "HP": 18,
+      "Str": 0,
+      "Mag": 6,
+      "Skl": 5,
+      "Spd": 7,
+      "Lck": 6,
+      "Def": 3,
+      "Res": 4
+    },
+    "Growths": {
+      "HP": 70,
+      "Str": 15,
+      "Mag": 60,
+      "Skl": 60,
+      "Spd": 60,
+      "Lck": 50,
+      "Def": 25,
+      "Res": 40
+    }
+  },
+  {
+    "Name": "Sumia",
+    "Img": "sumia",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Gray",
+    "Class": "Pegasus Knight",
+    "Start": {
+      "Lv": 1,
+      "HP": 18,
+      "Str": 6,
+      "Mag": 3,
+      "Skl": 11,
+      "Spd": 11,
+      "Lck": 8,
+      "Def": 5,
+      "Res": 7
+    },
+    "Growths": {
+      "HP": 75,
+      "Str": 45,
+      "Mag": 25,
+      "Skl": 70,
+      "Spd": 70,
+      "Lck": 60,
+      "Def": 30,
+      "Res": 40
+    }
+  },
+  {
+    "Name": "Kellam",
+    "Img": "kellam",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Brown",
+    "Class": "Knight",
+    "Start": {
+      "Lv": 5,
+      "HP": 21,
+      "Str": 10,
+      "Mag": 0,
+      "Skl": 7,
+      "Spd": 5,
+      "Lck": 3,
+      "Def": 12,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 100,
+      "Str": 65,
+      "Mag": 15,
+      "Skl": 55,
+      "Spd": 45,
+      "Lck": 35,
+      "Def": 70,
+      "Res": 35
+    }
+  },
+  {
+    "Name": "Donnel",
+    "Img": "donnel",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Brown",
+    "Class": "Villager",
+    "Start": {
+      "Lv": 1,
+      "HP": 16,
+      "Str": 4,
+      "Mag": 0,
+      "Skl": 2,
+      "Spd": 3,
+      "Lck": 11,
+      "Def": 3,
+      "Res": 0
+    },
+    "Growths": {
+      "HP": 85,
+      "Str": 55,
+      "Mag": 15,
+      "Skl": 45,
+      "Spd": 50,
+      "Lck": 80,
+      "Def": 45,
+      "Res": 20
+    }
+  },
+  {
+    "Name": "Lon'qu",
+    "Img": "lonqu",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Black",
+    "Class": "Myrmidon",
+    "Start": {
+      "Lv": 4,
+      "HP": 20,
+      "Str": 6,
+      "Mag": 1,
+      "Skl": 12,
+      "Spd": 13,
+      "Lck": 7,
+      "Def": 7,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 80,
+      "Str": 55,
+      "Mag": 20,
+      "Skl": 75,
+      "Spd": 75,
+      "Lck": 55,
+      "Def": 30,
+      "Res": 25
+    }
+  },
+  {
+    "Name": "Ricken",
+    "Img": "ricken",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Orange",
+    "Class": "Mage",
+    "Start": {
+      "Lv": 3,
+      "HP": 20,
+      "Str": 3,
+      "Mag": 8,
+      "Skl": 6,
+      "Spd": 5,
+      "Lck": 10,
+      "Def": 6,
+      "Res": 3
+    },
+    "Growths": {
+      "HP": 85,
+      "Str": 20,
+      "Mag": 55,
+      "Skl": 50,
+      "Spd": 50,
+      "Lck": 65,
+      "Def": 35,
+      "Res": 35
+    }
+  },
+  {
+    "Name": "Maribelle",
+    "Img": "maribelle",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Yellow",
+    "Class": "Troubadour",
+    "Start": {
+      "Lv": 3,
+      "HP": 18,
+      "Str": 0,
+      "Mag": 5,
+      "Skl": 4,
+      "Spd": 6,
+      "Lck": 5,
+      "Def": 3,
+      "Res": 6
+    },
+    "Growths": {
+      "HP": 65,
+      "Str": 20,
+      "Mag": 60,
+      "Skl": 50,
+      "Spd": 50,
+      "Lck": 80,
+      "Def": 15,
+      "Res": 55
+    }
+  },
+  {
+    "Name": "Panne",
+    "Img": "panne",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Brown",
+    "Class": "Taguel",
+    "Start": {
+      "Lv": 6,
+      "HP": 28,
+      "Str": 8,
+      "Mag": 1,
+      "Skl": 9,
+      "Spd": 10,
+      "Lck": 8,
+      "Def": 7,
+      "Res": 3
+    },
+    "Growths": {
+      "HP": 100,
+      "Str": 60,
+      "Mag": 15,
+      "Skl": 70,
+      "Spd": 75,
+      "Lck": 40,
+      "Def": 50,
+      "Res": 20
+    }
+  },
+  {
+    "Name": "Gaius",
+    "Img": "gaius",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Orange",
+    "Class": "Thief",
+    "Start": {
+      "Lv": 5,
+      "HP": 22,
+      "Str": 7,
+      "Mag": 0,
+      "Skl": 13,
+      "Spd": 15,
+      "Lck": 6,
+      "Def": 5,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 85,
+      "Str": 60,
+      "Mag": 20,
+      "Skl": 70,
+      "Spd": 70,
+      "Lck": 35,
+      "Def": 30,
+      "Res": 20
+    }
+  },
+  {
+    "Name": "Cordelia",
+    "Img": "cordelia",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Red",
+    "Class": "Pegasus Knight",
+    "Start": {
+      "Lv": 7,
+      "HP": 25,
+      "Str": 9,
+      "Mag": 3,
+      "Skl": 13,
+      "Spd": 12,
+      "Lck": 9,
+      "Def": 8,
+      "Res": 8
+    },
+    "Growths": {
+      "HP": 90,
+      "Str": 60,
+      "Mag": 20,
+      "Skl": 60,
+      "Spd": 60,
+      "Lck": 45,
+      "Def": 45,
+      "Res": 35
+    }
+  },
+  {
+    "Name": "Gregor",
+    "Img": "gregor",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Orange",
+    "Class": "Mercenary",
+    "Start": {
+      "Lv": 10,
+      "HP": 30,
+      "Str": 12,
+      "Mag": 0,
+      "Skl": 13,
+      "Spd": 11,
+      "Lck": 8,
+      "Def": 10,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 105,
+      "Str": 60,
+      "Mag": 10,
+      "Skl": 65,
+      "Spd": 50,
+      "Lck": 45,
+      "Def": 50,
+      "Res": 15
+    }
+  },
+  {
+    "Name": "Nowi",
+    "Img": "nowi",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Green",
+    "Class": "Manakete",
+    "Start": {
+      "Lv": 3,
+      "HP": 18,
+      "Str": 4,
+      "Mag": 0,
+      "Skl": 2,
+      "Spd": 3,
+      "Lck": 8,
+      "Def": 2,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 120,
+      "Str": 65,
+      "Mag": 40,
+      "Skl": 50,
+      "Spd": 50,
+      "Lck": 65,
+      "Def": 65,
+      "Res": 50
+    }
+  },
+  {
+    "Name": "Libra",
+    "Img": "libra",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Yellow",
+    "Class": "War Monk",
+    "Start": {
+      "Lv": 1,
+      "HP": 38,
+      "Str": 14,
+      "Mag": 15,
+      "Skl": 13,
+      "Spd": 13,
+      "Lck": 10,
+      "Def": 11,
+      "Res": 16
+    },
+    "Growths": {
+      "HP": 90,
+      "Str": 40,
+      "Mag": 50,
+      "Skl": 55,
+      "Spd": 50,
+      "Lck": 45,
+      "Def": 35,
+      "Res": 40
+    }
+  },
+  {
+    "Name": "Tharja",
+    "Img": "tharja",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Black",
+    "Class": "Dark Mage",
+    "Start": {
+      "Lv": 10,
+      "HP": 25,
+      "Str": 4,
+      "Mag": 11,
+      "Skl": 5,
+      "Spd": 12,
+      "Lck": 3,
+      "Def": 10,
+      "Res": 7
+    },
+    "Growths": {
+      "HP": 90,
+      "Str": 30,
+      "Mag": 60,
+      "Skl": 40,
+      "Spd": 60,
+      "Lck": 40,
+      "Def": 45,
+      "Res": 40
+    }
+  },
+  {
+    "Name": "Anna",
+    "Img": "anna",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Red",
+    "Class": "Trickster",
+    "Start": {
+      "Lv": 1,
+      "HP": 35,
+      "Str": 12,
+      "Mag": 17,
+      "Skl": 22,
+      "Spd": 21,
+      "Lck": 25,
+      "Def": 8,
+      "Res": 10
+    },
+    "Growths": {
+      "HP": 80,
+      "Str": 40,
+      "Mag": 45,
+      "Skl": 60,
+      "Spd": 55,
+      "Lck": 80,
+      "Def": 35,
+      "Res": 40
+    }
+  },
+  {
+    "Name": "Olivia",
+    "Img": "olivia",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Pink",
+    "Class": "Dancer",
+    "Start": {
+      "Lv": 1,
+      "HP": 18,
+      "Str": 3,
+      "Mag": 1,
+      "Skl": 9,
+      "Spd": 9,
+      "Lck": 5,
+      "Def": 3,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 75,
+      "Str": 40,
+      "Mag": 25,
+      "Skl": 70,
+      "Spd": 70,
+      "Lck": 60,
+      "Def": 25,
+      "Res": 25
+    }
+  },
+  {
+    "Name": "Cherche",
+    "Img": "cherche",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Red",
+    "Class": "Wyvern Rider",
+    "Start": {
+      "Lv": 12,
+      "HP": 30,
+      "Str": 14,
+      "Mag": 1,
+      "Skl": 12,
+      "Spd": 11,
+      "Lck": 8,
+      "Def": 15,
+      "Res": 2
+    },
+    "Growths": {
+      "HP": 100,
+      "Str": 70,
+      "Mag": 20,
+      "Skl": 55,
+      "Spd": 50,
+      "Lck": 50,
+      "Def": 55,
+      "Res": 15
+    }
+  },
+  {
+    "Name": "Henry",
+    "Img": "henry",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "White",
+    "Class": "Dark Mage",
+    "Start": {
+      "Lv": 12,
+      "HP": 28,
+      "Str": 6,
+      "Mag": 13,
+      "Skl": 14,
+      "Spd": 8,
+      "Lck": 10,
+      "Def": 12,
+      "Res": 5
+    },
+    "Growths": {
+      "HP": 95,
+      "Str": 40,
+      "Mag": 50,
+      "Skl": 60,
+      "Spd": 55,
+      "Lck": 40,
+      "Def": 50,
+      "Res": 30
+    }
+  },
+  {
+    "Name": "Say'ri",
+    "Img": "sayri",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Black",
+    "Class": "Swordmaster",
+    "Start": {
+      "Lv": 1,
+      "HP": 39,
+      "Str": 17,
+      "Mag": 7,
+      "Skl": 23,
+      "Spd": 26,
+      "Lck": 20,
+      "Def": 12,
+      "Res": 10
+    },
+    "Growths": {
+      "HP": 90,
+      "Str": 55,
+      "Mag": 20,
+      "Skl": 65,
+      "Spd": 60,
+      "Lck": 45,
+      "Def": 40,
+      "Res": 40
+    }
+  },
+  {
+    "Name": "Tiki",
+    "Img": "tiki",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Green",
+    "Class": "Manakete",
+    "Start": {
+      "Lv": 20,
+      "HP": 39,
+      "Str": 18,
+      "Mag": 10,
+      "Skl": 14,
+      "Spd": 16,
+      "Lck": 18,
+      "Def": 15,
+      "Res": 12
+    },
+    "Growths": {
+      "HP": 130,
+      "Str": 60,
+      "Mag": 45,
+      "Skl": 55,
+      "Spd": 50,
+      "Lck": 80,
+      "Def": 60,
+      "Res": 60
+    }
+  },
+  {
+    "Name": "Basilio",
+    "Img": "basilio",
+    "Gender": "Male",
+    "Avatar": false,
+    "Hair": "Brown",
+    "Class": "Warrior",
+    "Start": {
+      "Lv": 10,
+      "HP": 56,
+      "Str": 30,
+      "Mag": 3,
+      "Skl": 25,
+      "Spd": 21,
+      "Lck": 18,
+      "Def": 20,
+      "Res": 8
+    },
+    "Growths": {
+      "HP": 110,
+      "Str": 70,
+      "Mag": 10,
+      "Skl": 60,
+      "Spd": 50,
+      "Lck": 45,
+      "Def": 50,
+      "Res": 20
+    }
+  },
+  {
+    "Name": "Flavia",
+    "Img": "flavia",
+    "Gender": "Female",
+    "Avatar": false,
+    "Hair": "Yellow",
+    "Class": "Hero",
+    "Start": {
+      "Lv": 10,
+      "HP": 48,
+      "Str": 25,
+      "Mag": 5,
+      "Skl": 28,
+      "Spd": 26,
+      "Lck": 21,
+      "Def": 23,
+      "Res": 11
+    },
+    "Growths": {
+      "HP": 95,
+      "Str": 55,
+      "Mag": 20,
+      "Skl": 70,
+      "Spd": 65,
+      "Lck": 55,
+      "Def": 40,
+      "Res": 30
+    }
+  }
+]

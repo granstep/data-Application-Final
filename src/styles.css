@@ -1,0 +1,241 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#profile {
+  width: 150px;
+}
+
+.icon {
+  width: 40px;
+  background-color: #b5b5b5;
+  margin: 10px;
+  outline-style: solid;
+  outline-color: #616161;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.icon-cur {
+  cursor: auto;
+  opacity: 0.5;
+}
+
+.loading-screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  /* background: rgba(0, 0, 0, 1); */
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.showLoad {
+  animation: show;
+  animation-duration: 1;
+  animation-fill-mode: forwards;
+}
+
+.hideLoad {
+  animation: hide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.Blue {
+  background-color: blue;
+}
+
+.White {
+  background-color: white;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    margin-left: 100%;
+    background-color: black;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0%;
+    background-color: #222222;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 1;
+    margin-left: 0%;
+    background-color: #222222;
+  }
+  100% {
+    opacity: 0;
+    margin-left: -100%;
+    background-color: black;
+  }
+}
+
+.showProfile {
+  animation: slideIn;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.hideProfile {
+  animation: slideOut;
+  animation-duration: 0.5;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    margin-top: 100%;
+    background-color: black;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0%;
+    background-color: #222222;
+  }
+}
+@keyframes slideDown {
+  0% {
+    opacity: 1;
+    margin-top: 0%;
+    background-color: #222222;
+  }
+  100% {
+    opacity: 0;
+    margin-top: 100%;
+    background-color: black;
+  }
+}
+
+.showBarracks {
+  animation: slideUp;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+.hideBarracks {
+  animation: slideUp;
+  animation-duration: 0.5;
+  animation-fill-mode: forwards;
+}
+
+.holder {
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.p-line-1 {
+  display: flex;
+}
+.p-line-1 img {
+  margin: 10px;
+  background-color: #fffdd7;
+  outline-style: groove;
+  outline-color: #d3a73a;
+  border-radius: 20px;
+}
+.p-line-1-text {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.p-line-2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+.p-line-2 table {
+  margin-left: 20px;
+  background-color: #232855;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+.p-line-2 table,
+th,
+td {
+  border: 1px solid;
+  padding: 2px;
+}
+
+.between {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #222222;
+}
+
+.avatarHeader {
+  display: flex;
+  margin-bottom: -10px;
+}
+button {
+  cursor: pointer;
+}
+.avatarHeader button {
+  float: left;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+}
+.Male {
+  color: lightblue;
+}
+.Female {
+  color: pink;
+}
+.nameButton {
+  background-color: #4d006b;
+  color: white;
+}
+
+.Yellow {
+  background-color: yellow;
+}
+.Brown {
+  background-color: #664200;
+}
+.Red {
+  background-color: red;
+}
+.Teal {
+  background-color: lightblue;
+}
+.Green {
+  background-color: green;
+}
+.Gray {
+  background-color: gray;
+}
+.Black {
+  background-color: black;
+}
+.Orange {
+  background-color: orange;
+}
+.Pink {
+  background-color: pink;
+}
