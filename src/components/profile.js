@@ -2,13 +2,16 @@ import React from "react";
 import Avatar from "./avatar";
 
 export default function Profile(prop) {
+  //an empty element to be filled
   var display = <div></div>;
 
+  //create an image link with the data
   function id2Link() {
     var link = "img/" + prop.info.Img + ".png";
     return link;
   }
 
+  //fill the display variable with HTML and data
   if (prop.info.Avatar) {
     display = <Avatar info={prop.info} img={id2Link()} />;
   } else {
@@ -76,5 +79,6 @@ export default function Profile(prop) {
     );
   }
 
+  //return the display to the view
   return display;
 }
