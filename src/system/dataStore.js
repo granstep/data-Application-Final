@@ -1,3 +1,4 @@
+//dummy data to prevent errors
 let dataStore = {
   charas: [
     {
@@ -29,7 +30,7 @@ let dataStore = {
         Res: 0
       }
     }
-  ],
+  ], //subscribers to handle data changes
   subscribers: [],
   subscribe: function (callback) {
     this.subscribers.push(callback);
@@ -38,7 +39,7 @@ let dataStore = {
     this.subscribers.forEach((callback) => {
       callback();
     });
-  },
+  }, //get the json data file
   loadData: function () {
     fetch("data/characters.json")
       .then((response) => response.json())
@@ -46,11 +47,11 @@ let dataStore = {
         this.charas = data;
         this.updateSubscribers();
       });
-  },
+  }, //the renaming feature for the avatar character
   avatarRename: function (reName) {
     this.charas[1].Name = reName.name;
     this.updateSubscribers();
-  },
+  }, //the gender change feature for the avatar character
   avatarGender: function (genderSwap) {
     this.charas[1].Gender = genderSwap.gender;
     this.charas[1].Img = genderSwap.image;
@@ -58,6 +59,7 @@ let dataStore = {
   }
 };
 
+//the functions for exporting
 function ReName(newName) {
   this.name = newName;
 }
@@ -67,4 +69,5 @@ function GenderSwap(gender, image) {
   this.image = image;
 }
 
+//the export
 export { dataStore, ReName, GenderSwap };
